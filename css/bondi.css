@@ -68,62 +68,62 @@ body {
 }
 /* end navbar */
 
-/* start landing */
-.landing {
+/* start home */
+.home {
   background-color: var(--dark-color);
   height: calc(100vh - 2 * 72px);
 }
-.landing div p {
+.home div p {
   color: rgb(136, 136, 136);
   font-weight: bold;
 }
-/* end landing */
+/* end home */
 
-/* start features */
-.features .icon-holder {
+/* start services */
+.services .icon-holder {
   height: 200px;
 }
-.features .icon-holder i {
+.services .icon-holder i {
   left: 50%;
   transform: translateX(-50%);
 }
-.features .icon-holder .number {
+.services .icon-holder .number {
   font-size: 12rem;
   color: var(--section-color);
 }
-.features .icon-holder .icon {
+.services .icon-holder .icon {
   color: var(--green-color);
 }
-.features h4 {
+.services h4 {
   color: var(--yellow-color);
 }
-.features p {
+.services p {
   color: rgb(136, 136, 136);
 }
-/* end features */
+/* end services */
 
-/* start our work */
-.our-work {
+/* start protofolio */
+.protofolio {
   background-color: var(--section-color);
 }
-.our-work ul .active {
+.protofolio ul .active {
   background-color: var(--red-color);
   color: var(--yellow-color);
 }
-.our-work ul li {
+.protofolio ul li {
   cursor: pointer;
   padding: 0.5rem 1rem;
   transition: 0.3s;
 }
-.our-work ul li:not(.active):hover {
+.protofolio ul li:not(.active):hover {
   color: var(--red-color);
 }
-.our-work .box {
+.protofolio .box {
   padding: 5px;
   overflow: hidden;
   position: relative;
 }
-.our-work .box::before {
+.protofolio .box::before {
   content: attr(data-work);
   position: absolute;
   width: calc(100% - 10px);
@@ -140,17 +140,17 @@ body {
   transition: 0.3s;
   transition-delay: 0.2s;
 }
-.our-work .box:hover::before {
+.protofolio .box:hover::before {
   transform: translateX(0);
   opacity: 0.95;
 }
-/* end our work */
+/* end protofolio */
 
-/* start stuff  */
-.stuff .description {
+/* start about  */
+.about .description {
   max-width: 500px;
 }
-/* end stuff  */
+/* end about  */
 
 /* start team */
 .team {
